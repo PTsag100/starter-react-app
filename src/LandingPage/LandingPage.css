@@ -1,0 +1,77 @@
+.landing-page {
+  background: url("../../public/Εικόνα2.png");
+  background-position: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+.ieee-logo {
+  display: flex;
+  align-items: center;
+}
+.ieee-logo :nth-child(2) {
+  margin-left: 0.5rem;
+  color: white;
+}
+
+.landing-page p {
+  color: white;
+  width: 50%;
+  max-width: 1100px;
+  padding: 1rem 0;
+}
+.button-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.landing-page a {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 1rem;
+  border-radius: 50px;
+  margin-top: 1rem;
+}
+.landing-page a:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  .landing-page p {
+    width: 80%;
+  }
+  .button-container {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .landing-page {
+    background-position: left;
+  }
+  .ieee-logo {
+    margin-top: 10vh;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .landing-page p {
+    width: 100%;
+    text-align: center;
+  }
+  .button-container {
+    width: 100%;
+  }
+}

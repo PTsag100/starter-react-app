@@ -1,0 +1,15 @@
+.socials-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--margin-md) 0;
+  background-color: var(--secondary);
+  box-sizing: border-box;
+}
+.social-logo-container {
+  margin: 0 var(--margin-sm);
+  padding: 0;
+  font-size: 62px;
+  color: var(--white);
+}
